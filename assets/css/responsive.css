@@ -1,0 +1,349 @@
+@media (max-width: 1024px) {
+    header {
+        padding: 0 30px;
+    }
+
+    header .container nav {
+        display: none;
+    }
+
+    header .container #menu-mobile {
+        display: block;
+    }
+
+    .banner .container {
+        flex-direction: column;
+    }
+
+    .banner .container .banner-content {
+        width: 100%;
+    }
+
+    .banner .container .banner-img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner .container .banner-img img {
+        width: 300px;
+        margin-top: -100px;
+        margin-right: -160px;
+    }
+    
+    .banner .container .banner-img .icon-box  {
+        display: none;
+    }
+    .about .container {
+        flex-direction: column-reverse;
+    }
+
+    .about .container div {
+        width: 100%;
+    }
+
+    .about .container .about-content {
+        padding: 0 30px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .panel {
+        padding: 0 30px;
+    }
+
+    .tools .tool-box {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .container {
+        width: 100%;
+    }
+    .icons {
+        display: none;
+    }
+} 
+
+@media (max-width: 850px) {
+    .partners {
+        padding-top: 60px;
+    }
+
+    #app {
+        width: 80%;
+        margin: auto;
+    }
+
+    .partners .container .logos {
+        flex-direction: column;
+    }
+
+    .faq .container div {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .faq .container .faq-box {
+        width: 100%;
+    }
+
+    .panel .container {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .panel .container .panel-img {
+        justify-content: center;
+    }
+
+    .panel .container .panel-img img {
+        width: 300px;
+        margin-bottom: -50px;
+    }
+
+    .panel .container .panel-content {
+        padding: 60px 40px 40px 40px;
+    }
+
+    .dashboard .container img {
+        width: 600px;
+        height: auto;
+    }
+
+    .dashboard-content .container .box-dash{
+        width: 100;
+    }
+
+    .dashboard-content .container .box-dash:nth-child(1),
+    .dashboard-content .container .box-dash:nth-child(3) {
+        justify-content: center;
+
+    }
+
+    .dashboard-content .container .box-dash:nth-child(2),
+    .dashboard-content .container .box-dash:nth-child(4) {
+        justify-content: center;
+    }
+
+    .dashboard-content .container {
+        padding: 0 30px; 
+    }
+
+    .contact {
+        padding: 0 30px 0 30px;
+    }
+
+    .contact .container {
+        flex-direction: column;
+    }
+
+    .contact .container div {
+        width: 100%;
+    }
+
+    .contact .container .contact-form {
+        padding-top: 20px;
+    }
+
+    .contact .container .contact-form form {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .contact .container .contact-form form #email {
+        width: 70%;
+    }
+
+    .contact .container .contact-form form #submit {
+        width: 30%;
+    }
+
+    footer .container {
+        flex-direction: column;
+        padding: 0 30px 0 30px;
+    }
+
+    footer .container .team {
+        margin: 0;
+    }
+
+    footer .container .team .team-box .social {
+        margin: 0;
+    }
+
+    footer .container .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .container .team {
+        justify-content: space-between;
+    }
+
+    footer .container .team .team-box img {
+        margin: 0;
+    }
+} 
+
+@media (max-width: 660px) {
+    #inicio h2,
+    #parcerias h2,
+    #solucao h2,
+    #funcionalidades h2,
+    #app h2,
+    #duvidas h2,
+    .panel h2,
+    #dashboard h2 {
+        font-size: 28px;
+        line-height: 32px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .about .container .about-img .img-big {
+        width: 300px;
+    }
+
+    .about .container .about-img .img-small {
+        width: 150px;
+        right: 20px;
+    }
+
+    #dashboard .container  {
+        padding: 30px;
+    }
+
+    #dashboard .container img {
+        width: 80%;
+    }
+
+    #app {
+        height: auto;
+        padding: 0;
+    }
+
+    #app .carousel__item  {
+        width: 150px;
+        height: 350px;
+    }
+
+    footer .container .team {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    footer .container .team .team-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px) {
+    .banner .container .banner-img img {
+        width: 300px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .banner .container .banner-content h1 {
+        font-size: 28px;
+    }
+
+    .banner .container .banner-content {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #app {
+        height: auto;
+        padding: 0;
+    }
+
+    #app .carousel__item  {
+        width: 160px;
+        height: 350px;
+    }
+
+    .dashboard .container img {
+        margin-bottom: -100px;
+    }
+}
+
+@media (max-width: 440px) {
+    body {
+        width: 100%;
+    }
+
+    header .container {
+        width: 100%;
+    }
+    header .container img {
+        width: 150px;
+    }
+    
+    .banner .container {
+        flex-direction: column;
+    }
+
+    .banner .container div {
+        width: 100%;
+    }
+
+    .banner .container .banner-img {
+        padding: 20px;
+    }
+
+    .partners {
+        padding-top: 30px;
+    }
+
+    .partners .container .logos{
+        flex-direction: column;
+    }
+
+    .about .container {
+        flex-direction: column-reverse;
+    }
+
+    .about .container div {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .about .container .about-img .img-big {
+        width: 300px;
+    }
+
+    .about .container .about-img .img-small {
+        width: 150px;
+    }
+
+    .tools {
+        padding: 30px;
+    }
+
+    .tools .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .faq {
+        padding: 30px;
+    }
+
+    .faq .container {
+        width: 100%;
+    }
+
+    .faq .container .faq-box {
+        width: 100%;
+    }
+} 
+

@@ -1,0 +1,81 @@
+.icons .icon-baby {
+    position: absolute;
+    animation: pulse 2s infinite ease;
+    animation-direction: alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.7);
+        transform: translateY(-30px);
+    }
+}
+
+.carousel {
+    position: relative;
+}
+
+/* Lupa */
+.icons #baby1 {
+    top: 250px;
+    left: 400px;
+    opacity: 0.5;
+    width: 50px;
+}
+
+/* Balão */
+.icons #baby2 {
+    width: 60px;
+    top: 180px;
+    right: 450px;
+    opacity: 0.5;
+    transform: rotate(20deg);
+}
+
+/* Calendario */
+.icons #baby3 {
+    width: 50px;
+    bottom: 130px;
+    left: 480px;
+    opacity: 0.5;
+    transform: rotate(-20deg);
+}
+
+/* Apresentacao */
+.icons #baby4 {
+    width: 50px;
+    bottom: 130px;
+    right: 400px;
+    opacity: 0.5;
+    transform: rotate(-10deg);
+}
+
+/* Planeta */
+.icons #baby5 {
+    width: 80px;
+    top: 320px;
+    right: 300px;
+    opacity: 0.5;
+    transform: rotate(-10deg);
+}
+
+/* Balao de duvida */
+.icons #baby6 {
+    width: 60px;
+    bottom: 230px;
+    left: 280px;
+    opacity: 0.5;
+    transform: rotate(-10deg);
+}
+
+/* Balanca */
+.icons #baby7 {
+    width: 50px;
+    top: 180px;
+    left: 270px;
+    opacity: 0.5;
+    transform: rotate(-10deg);
+}

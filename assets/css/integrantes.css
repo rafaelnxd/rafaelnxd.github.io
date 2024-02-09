@@ -1,0 +1,109 @@
+/* --- Cores Globais --- */
+:root {
+    --main: #3ACBC6;
+    --bg: #F6F6E9;
+    --white: #fff;
+}
+
+/* --- Configurações Gerais --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 120px;
+}
+
+body {
+    font-family: 'Baloo 2', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+main .title {
+    font-size: 36px;
+    margin-bottom: 60px;   
+}
+
+main .title span {
+    color: var(--main)
+}
+
+main .team {
+    display: flex;
+    flex-direction: row;
+}
+
+main .team .team-box {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 0;
+    border-radius: 12px;
+    padding-bottom: 20px;
+}
+
+main .team .team-box a {
+    color: #06838b; 
+}
+
+main .team .team-box h3 {
+    color: #3ACBC6;
+}
+
+main .team .team-box img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 2px solid transparent;
+    outline: 2px solid #3ACBC6;
+}
+
+main .team .team-box .social {
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+    margin-bottom: -30px;
+}
+
+main .team .team-box .social i {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: var(--main);
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+main .team .team-box .social i:hover {
+    background-color: #06838b;
+}
+
+@media (max-width: 600px) {
+    .team {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+    }
+
+    .team .team-box {
+        width: 60%;
+        margin: 40px 0;
+    }
+}
